@@ -8,18 +8,20 @@ public class Main {
 
     public static void main(String[] args) {
         int getNumber;
-        // iniliaze list
+        // initializing a list
         List<Integer> list = new ArrayList<>();
-        // use get promt
+        // User get a input on keybord
         Scanner scanner = new Scanner(System.in);
         for(int i = 0; i < 5; i++)
         {
              getNumber= scanner.nextInt();
+             //Then add the list for some number
              list.add(getNumber);
         }
 
         for(int i = 0; i < list.size(); i++)
         {
+            //last thing print the list
             System.out.println(list.get(i));
         }
 
